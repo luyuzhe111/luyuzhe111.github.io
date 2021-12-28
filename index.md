@@ -14,7 +14,7 @@ title: Home
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">
-			My research interest lies at the intersection of <u>machine learning</u>, <u>computer vision</u>, and <u>human-computer interaction</u>. In particular, I am interested in <u>making representation learning in computer vision more tangible</u>. To this end, I have worked on <u>interactive interfaces</u> to characterize learned representations as well as <u>novel frameworks</u> to enable better learning outcomes.
+			My research interest lies at the intersection of <u>machine learning</u>, <u>computer vision</u>, and <u>human-computer interaction</u>. In particular, I am interested in <u>making representation learning in computer vision more tangible</u>. To this end, I have worked on <u>interactive interfaces</u> to characterize model representations and <u>novel frameworks</u> to improve learning outcomes.
 			<!-- I am interested in <b>data visualization</b>, <b>medical image computing</b>, and <b>machine learning</b>. My goal is to develop <u>visually or theoretically interpretable machine intelligence, especially for biomedical applications</u>. This involves utilizing data visualization techniques to understand learned representations and guild model development, and leveraging mathematical lens to build theoretically-grounded frameworks.    -->
 		</div>
 		<div style="height: 1rem"></div>
