@@ -1,32 +1,11 @@
-- degree: "Ph.D. in Human Computer Interaction"
-  institution:  Carnegie Mellon University
-  location: "Pittsburgh, PA"
-  advisor: Dominik Moritz
-  co-advisor: Adam Perer
-  years: "August 2020 - Present"
-  thesis:
-  # description:
-  committee:
-  institution-url: 
-  coursework:
-    - HCI Process and Theory
-    - Computational Medicine
-    - Human Judgement and Decision Making
-
-
-
-- degree: "B.S. in Computer Science"
-  years: "August 2016 — May 2020"
-  institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
+- degree: "B.S. in Mathematics and Computer Science"
+  years: "August 2018 — May 2022"
+  institution: Vanderbilt University
+  location: "Nashville, TN"
   description: 
-    - "GPA: 4.0, Summa Cum Laude, threads in Intelligence and Modeling/Simulation"
-  institution-url: https://www.gatech.edu/
+    - "GPA: 3.89"
+  institution-url: https://www.vanderbilt.edu/
   coursework:
-    - Machine Learning
-    - Deep Learning
-    - Computer Vision
-    - Computer Architecture
-    - Algorithms
-    - Computer Simulation
-    - Information Visualization
+    - Visual Analytics and Machine Learning
+    - Foundations of Machine Learning
+    - Data Visualization

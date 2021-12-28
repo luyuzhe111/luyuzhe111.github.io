@@ -1,72 +1,267 @@
-- id: fairvis
-  title: "FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning"
-  authors: 
-    - Angel Cabrera
-    - Will Epperson 
-    - Fred Hohman
-    - Minsuk Kahng
-    - Jamie Morgenstern 
-    - Duen Horng (Polo) Chau
-  venue: IEEE Conference on Visual Analytics Science and Technology
-  venue-shorthand: VAST
-  location: Vancouver, Canada
-  year: 2019
-  url: /papers/fairvis
-  demo: https://poloclub.github.io/FairVis/
-  pdf: https://arxiv.org/abs/1904.05419
-  slides: /slides/19-fairvis-vast-slides.pdf
-  recording: https://vimeo.com/368702211
-  code: https://github.com/poloclub/FairVis
-  blog: https://medium.com/@cabreraalex/fairvis-discovering-bias-in-machine-learning-using-visual-analytics-acbd362a3e2f
-  selected: true
-  featured: true
-  feature-order: 1
-  feature-title: FairVis
-  feature-description: "Discovering intersectional ML Bias through interactive visualization"
-  summary: "FairVis is a Visual Analytics system that allows users to audit their machine learning models for intersectional bias by exploring the model's performance on various user-specified and reccomended subgroups in a dataset."
-  type: conference
-  image: /images/papers/19-fairvis-vast.png
-  type: conference
-  bibtex: |-
-
-    @article{cabrera2019fairvis,
-      title={FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning},
-      author={Cabrera, {\'A}ngel and Epperson, Will, and Hohman, Fred and Kahng, Minsuk and Morgenstern, Jamie and Chau, Duen Horng},
-      journal={IEEE Conference on Visual Analytics Science and Technology (VAST)},
-      year={2019},
-      publisher={IEEE}
-      url={https://poloclub.github.io/FairVis/}
-    }
-
-- id: recast
-  title: "RECAST: Interactive Auditing of Automatic Toxicity Detection Models"
+- id: neuralmarker
+  title: "NeuralMarker: Scalable Human-in-the-loop Neuron Labeling to Support Customized Explanations"
   authors:
-    - Austin P. Wright
-    - Omar Shaikh
-    - Haekyu Park
-    - Will Epperson
-    - Muhammed Ahmed
-    - Stephane Pinel
-    - Diyi Yang
-    - Duen Horng (Polo) Chau
-  venue: The eighth International Workshop of Chinese CHI
-  year: 2020
-  url: /papers/recast
-  pdf: https://arxiv.org/pdf/2001.01819.pdf
+    - Yuzhe Lu
+    - Adam Perer
+  venue: IEEE Visualization Conference (IEEE VIS) (In Preparation)
+  year: 2022
+  url: https://github.com/cmudig/NeuralMarker
+  pdf: # https://arxiv.org/pdf/2112.05872.pdf
   type: arxiv
-  feature-title: RECAST
-  feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
-  summary: "RECAST is an interactive tool that allows users to audit toxicity detection models with their own input text and suggests alternative wordings for detected toxic speech."
-  featured: true
-  feature-order: 2
-  selected: true
-  image: /images/papers/20-recast-chi.png
-  bibtex: |-
-    @article{wright2020recast,
-    title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
-    author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
-    year={2020},
-    eprint={2001.01819},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
-    }
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "A visual analytics interface empowering radiologists to identify interpretable units in deep convolutional neural networks at scale to generate customized explanations."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+
+- id: slosh
+  title: "Set Locality Sensitive Hashing via Sliced Wasserstein Embeddings"
+  authors:
+    - Yuzhe Lu
+    - Xinran Liu
+    - Andrea Soltoggio
+    - Soheil Kolouri
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (submitted)
+  year: 2021
+  url: https://github.com/mint-vu/SLOSH
+  pdf: https://arxiv.org/pdf/2112.05872.pdf
+  type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "Fast set data retrieval through sliced Wassersten embedding and non-parametric learning."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+
+- id: flow
+  title: "Neural Flow Map Reconstruction"
+  authors:
+    - Saroj Sahoo
+    - Yuzhe Lu
+    - Matthew Berger
+  venue: Computer Graphics Forum (EuroVis Proceedings) (submitted)
+  year: 2021
+  # url: https://arxiv.org/pdf/2104.04523.pdf
+  pdf: https://arxiv.org/pdf/2104.04523.pdf
+  # type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "A reconstruction technique for the reduction of unsteady flow data based on neural representations of time-varying vector fields."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+
+- id: bit
+  title: "Holistic Fine-grained Global Glomerulosclerosis Characterization: From Detection to Unbalanced Classification"
+  authors:
+    - Yuzhe Lu
+    - Haichun Yang
+    - Zuhayr Asad
+    - Zheyu Zhu
+    - Tianyuan Yao
+    - ...
+    -  Yuankai Huo
+  venue: Journal of Medical Imaging (submitted)
+  year: 2021
+  # url: /papers/recast
+  pdf: https://arxiv.org/pdf/2103.05585.pdf
+  # type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "A holistic pipeline to perform fine-grained glomeruli sclerosis quantification directly from high-resolution whole slide images."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+- id: simtriplet
+  title: "SimTriplet: Simple Triplet Representation Learning with a Single GPU"
+  authors:
+    - Quan Liu
+    - Peter C. Louis
+    - Yuzhe Lu
+    - Aadarsh Jha
+    - Mengyang Zhao
+    - ...
+    -  Yuankai Huo
+  venue: International Conference on Med Image Computing and Computer-Assisted Intervention (MICCAI)
+  year: 2021
+  url: https://github.com/hrlblab/SimTriplet
+  pdf: https://arxiv.org/pdf/2103.05585.pdf
+  # type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "A contrastive learning framework taking advantage of the multi-view nature of medical images beyond self-augmentation."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+- id: neurcomp
+  title: "Compressive Neural Representations of Volumetric Scalar Fields"
+  authors:
+    - Yuzhe Lu
+    - Kairong Jiang
+    - Joshua A. Levine
+    - Matthew Berger
+  venue: Computer Graphics Forum (EuroVis Proceedings)
+  year: 2020
+  url: https://github.com/luyuzhe111/NeurComp
+  pdf: https://arxiv.org/pdf/2104.04523.pdf
+  summary: "State-of-the-art volumetric scalar fields compression results using implicit neural representations."
+
+
+- id: easierpath
+  title: "EasierPath: An Open-source Tool for Human-in-the-loop Deep Learning of Renal Pathology"
+  authors:
+    - Zheyu Zhu
+    - Yuzhe Lu
+    - Ruining Deng
+    - Haichun Yang
+    - Agnes B. Fogo
+    -  Yuankai Huo
+  venue: International Conference on Med Image Computing and Computer-Assisted Intervention (MICCAI)
+  year: 2020
+  url: https://github.com/luyuzhe111/EasierPath
+  pdf: https://arxiv.org/pdf/2007.13952.pdf
+  # type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "An open-source, human-in-the-loop tool to integrate physicians and deep learning algorithms for large-scale pathological image quantification."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+- id: circlenet
+  title: "CircleNet: Anchor-Free Glomerulus Detection with Circle Representation"
+  authors:
+    - Haichun Yang
+    - Ruining Deng
+    - Yuzhe Lu
+    - Zheyu Zhu
+    - Ye Chen
+    - ...
+    -  Yuankai Huo
+  venue: International Conference on Med Image Computing and Computer-Assisted Intervention (MICCAI)
+  year: 2020
+  url: https://github.com/hrlblab/CircleNet
+  pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8372751/
+  # type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "An anchor-free detection method using circle representation to detect the ball-shaped glomerulus."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+# - id: fairvis
+#   title: "FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning"
+#   authors: 
+#     - Angel Cabrera
+#     - Will Epperson 
+#     - Fred Hohman
+#     - Minsuk Kahng
+#     - Jamie Morgenstern 
+#     - Duen Horng (Polo) Chau
+#   venue: IEEE Conference on Visual Analytics Science and Technology
+#   venue-shorthand: VAST
+#   location: Vancouver, Canada
+#   year: 2019
+#   url: /papers/fairvis
+#   demo: https://poloclub.github.io/FairVis/
+#   pdf: https://arxiv.org/abs/1904.05419
+#   slides: /slides/19-fairvis-vast-slides.pdf
+#   recording: https://vimeo.com/368702211
+#   code: https://github.com/poloclub/FairVis
+#   blog: https://medium.com/@cabreraalex/fairvis-discovering-bias-in-machine-learning-using-visual-analytics-acbd362a3e2f
+#   selected: true
+#   featured: true
+#   feature-order: 1
+#   feature-title: FairVis
+#   feature-description: "Discovering intersectional ML Bias through interactive visualization"
+#   summary: "FairVis is a Visual Analytics system that allows users to audit their machine learning models for intersectional bias by exploring the model's performance on various user-specified and reccomended subgroups in a dataset."
+#   type: conference
+#   image: /images/papers/19-fairvis-vast.png
+#   type: conference
+#   bibtex: |-
+
+#     @article{cabrera2019fairvis,
+#       title={FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning},
+#       author={Cabrera, {\'A}ngel and Epperson, Will, and Hohman, Fred and Kahng, Minsuk and Morgenstern, Jamie and Chau, Duen Horng},
+#       journal={IEEE Conference on Visual Analytics Science and Technology (VAST)},
+#       year={2019},
+#       publisher={IEEE}
+#       url={https://poloclub.github.io/FairVis/}
+#     }

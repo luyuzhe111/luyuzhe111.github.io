@@ -10,20 +10,20 @@ jsarr:
 	<a href="{{ site.url }}"> <img class="title-logo" src="/images/share.png"> </a>
 </div> -->
 
-<h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://www.willepperson.com">Will Epperson</a></h1>
+<!-- <h1><a style="color: #313131; font-weight: 500; font-size: 1.25em" href="https://www.luyuzhe111.github.io">About</a></h1> -->
 
 <!-- <span class="cv-subtitle">
 </span> -->
 
-<span class="cv-max-width">
+<!-- <span class="cv-max-width">
 I’m a Ph.D. student in the HCII at CMU advised by Dominik Moritz and Adam Perer.
 </span>
 
 <span class="cv-max-width">
 My research interests lie in <b>developing interactive data science tools for both experts and non-experts</b>. I am interested in how we can help analysts understand their data through interactive visualization, recommended analysis, and models. My commonly used research methods include building stand-alone systems for data analysis, building extensions to existing tools like Jupyter, and running human studies experiments to evaluate these systems.  
-</span>
+</span> -->
 
-<div class="cv-image-links-wrapper" style="font-size: 16px; padding-bottom: 0;">
+<!-- <div class="cv-image-links-wrapper" style="font-size: 16px; padding-bottom: 0;">
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
 			{% if link.cv-group == 1 %}
@@ -38,9 +38,9 @@ My research interests lie in <b>developing interactive data science tools for bo
 			{% endif %}
 		{% endfor %}
 	</div>
-</div>
+</div> -->
 
----
+<!-- --- -->
 
 ## Education
 
@@ -82,14 +82,6 @@ My research interests lie in <b>developing interactive data science tools for bo
 {% if experience.type == "industry"%}
 {% include experience.html experience=experience %}
 {% endif %}
-{% endfor %}
-
-## Mentees
-<span class="cv-max-width">
-During my PhD, I have had the pleasure of mentoring the following undergraduate students on research projects.
-</span>
-{% for mentee in site.data.mentees %}
-{% include mentee.html mentee=mentee %}
 {% endfor %}
 
 ## Teaching

@@ -1,11 +1,11 @@
-- institution: Georgia Institute of Technology
+- institution: Vanderbilt University
   position: Undergraduate Teaching Assistant
-  location: "Atlanta, GA"
-  year: "August 2017 - December 2018"
-  class: "Intro to Database Systems (CS 4400)"
-  instructor: Monica Sweat
-  description: "Designed projects, held office hours and graded for relational databases class."
-  institution-url: http://gatech.edu
+  location: "Nashville, TN"
+  year: "August 2020 - December 2021"
+  class: "Programming and Problem Solving with Python (CS 1104)"
+  instructor: Dr. Robert Tairas & Dr. Diego Mesa
+  description: "Held office hours and graded for relational databases class."
+  institution-url: https://www.vanderbilt.edu/
   class-url: 
   ta: true
 

@@ -1,8 +1,8 @@
 - id: home
-  description: "willepperson.com"
+  description: "luyuzhe111.github.io"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "https://willepperson.com"
+  url: "https://luyuzhe111.github.io"
   on-homepage: false
   cv-group: 1
 
@@ -31,7 +31,7 @@
   cv-group: 2
 
 - id: scholar
-  description: "Google Scholar"
+  description: "Scholar"
   color: "#515151"
   class: "fa fa-graduation-cap icon"
   url: "https://scholar.google.com/citations?user=R6bq6u4AAAAJ&hl=en"
@@ -50,7 +50,7 @@
   description: CV PDF
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: "https://www.willepperson.com/cv.pdf"
+  url: "/cv.pdf"
   on-homepage: false
   cv-group: 1
 
@@ -58,5 +58,5 @@
   description: Here's my CV
   color: "#515151"
   class: "fa fa-address-card icon"
-  url: "https://www.willepperson.com/cv"
+  url: "/cv.pdf"
   on-homepage: false
