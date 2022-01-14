@@ -26,11 +26,41 @@
   #   }
 
 
+- id: loop
+  title: "Teaching Networks to Solve Optimization Problems"
+  authors:
+    - Xinran Liu*
+    - Yuzhe Lu*
+    - Ali Abbasi
+    - Javad Mohammadi
+    - Soheil Kolouri
+  venue: International Conference on Machine Learning (ICML) (submitted)
+  year: 2022
+  url: https://github.com/mint-vu/LOOP
+  pdf: # https://arxiv.org/pdf/2112.05872.pdf
+  type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "A radical framework to replace the iterative nature of optimization problems using set learning."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
 - id: slosh
   title: "Set Locality Sensitive Hashing via Sliced Wasserstein Embeddings"
   authors:
-    - Yuzhe Lu
-    - Xinran Liu
+    - Yuzhe Lu*
+    - Xinran Liu*
     - Andrea Soltoggio
     - Soheil Kolouri
   venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (submitted)
@@ -95,7 +125,7 @@
     - Tianyuan Yao
     - ...
     -  Yuankai Huo
-  venue: Journal of Medical Imaging (submitted)
+  venue: Journal of Medical Imaging
   year: 2021
   # url: /papers/recast
   pdf: https://arxiv.org/pdf/2103.05585.pdf
