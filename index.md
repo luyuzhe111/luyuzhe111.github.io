@@ -12,7 +12,7 @@ title: Home
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">
-			My research background lies in <u>machine learning</u>, <u>computer vision</u>, and <u>data visualization</u>. I am interested in making machine learning solugit tions more deployable. To me, this means designing geometrically aware algorithms and building novel interfaces to assist stakeholders audit trained models.
+			My research background lies in <u>machine learning</u>, <u>computer vision</u>, and <u>data visualization</u>. I am interested in making machine learning solutions more deployable. To me, this means designing geometry-aware algorithms that are robust to input shifts and building novel interfaces that assit stakeholders audit trained models.
 		</div>
 		<div style="height: 1rem"></div>
 		<div style="height: 1rem"></div>
