@@ -8,14 +8,11 @@ title: Home
 	</div>
 	<div class="intro-left">
 		<div class="intro-left">
-			Hello, my name is <b>Yuzhe Lu</b>. I am a senior at Vanderbilt University with majors in <u>mathematics</u> and <u>computer science</u>. 
-			<!-- and minors in <u>data science</u> and <u>medicine, health, and society</u>.  -->
-			<!-- I have been privileged do research with amazing faculties here at Vanderbilt: <a href="https://engineering.vanderbilt.edu/bio/yuankai-huo">Dr. Yuankai Huo</a>, <a href="https://engineering.vanderbilt.edu/bio/bennett-landman">Dr. Bennett Landman</a>, <a href="https://matthewberger.github.io/">Dr. Matthew Berger</a>, and <a href="https://skolouri.github.io/">Dr. Soheil Kolouri</a>. -->
+			Hello, my name is <b>Bryan Lu</b>. I am a master's student in the <u>machine learning</u> department at Carnegie Mellon University. I graduated from Vanderbilt University with majors in <u>mathematics</u> and <u>computer science</u>. 
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">
-			My research interest lies at the intersection of <u>machine learning</u>, <u>computer vision</u>, and <u>human-computer interaction</u>. In particular, I am interested in <u>making representation learning in computer vision more tangible</u>. To this end, I have worked on <u>interactive interfaces</u> to characterize model representations and <u>novel frameworks</u> to improve learning outcomes.
-			<!-- I am interested in <b>data visualization</b>, <b>medical image computing</b>, and <b>machine learning</b>. My goal is to develop <u>visually or theoretically interpretable machine intelligence, especially for biomedical applications</u>. This involves utilizing data visualization techniques to understand learned representations and guild model development, and leveraging mathematical lens to build theoretically-grounded frameworks.    -->
+			My research background lies in <u>machine learning</u>, <u>computer vision</u>, and <u>data visualization</u>. I am interested in making machine learning solugit tions more deployable. To me, this means designing geometrically aware algorithms and building novel interfaces to assist stakeholders audit trained models.
 		</div>
 		<div style="height: 1rem"></div>
 		<div style="height: 1rem"></div>

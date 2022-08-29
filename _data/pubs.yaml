@@ -1,11 +1,11 @@
-- id: neuralmarker
-  title: "NeuralMarker: Scalable Human-in-the-loop Neuron Labeling to Support Customized Explanations"
+- id: radiis
+  title: "An Interactive Interpretability System for Breast Cancer Screening with Deep Learning"
   authors:
     - Yuzhe Lu
     - Adam Perer
-  venue: IEEE Visualization Conference (IEEE VIS) (In Preparation)
+  venue: IEEE Visualization Conference (IEEE VIS)
   year: 2022
-  url: https://github.com/cmudig/NeuralMarker
+  url: https://github.com/luyuzhe111/Radiis
   pdf: # https://arxiv.org/pdf/2112.05872.pdf
   type: arxiv
   # feature-title: RECAST
@@ -26,36 +26,6 @@
   #   }
 
 
-- id: loop
-  title: "Teaching Networks to Solve Optimization Problems"
-  authors:
-    - Xinran Liu*
-    - Yuzhe Lu*
-    - Ali Abbasi
-    - Javad Mohammadi
-    - Soheil Kolouri
-  venue: International Conference on Machine Learning (ICML) (submitted)
-  year: 2022
-  url: https://github.com/mint-vu/LOOP
-  pdf: # https://arxiv.org/pdf/2112.05872.pdf
-  type: arxiv
-  # feature-title: RECAST
-  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
-  summary: "A radical framework to replace the iterative nature of optimization problems using set learning."
-  # featured: true
-  # feature-order: 2
-  # selected: true
-  # image: /images/papers/20-recast-chi.png
-  # bibtex: |-
-  #   @article{wright2020recast,
-  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
-  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
-  #   year={2020},
-  #   eprint={2001.01819},
-  #   archivePrefix={arXiv},
-  #   primaryClass={cs.CL}
-  #   }
-
 - id: slosh
   title: "Set Locality Sensitive Hashing via Sliced Wasserstein Embeddings"
   authors:
@@ -63,8 +33,8 @@
     - Xinran Liu*
     - Andrea Soltoggio
     - Soheil Kolouri
-  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (submitted)
-  year: 2021
+  venue: Association for the Advancement of Artificial Intelligence (AAAI) (submitted)
+  year: 2022
   url: https://github.com/mint-vu/SLOSH
   pdf: https://arxiv.org/pdf/2112.05872.pdf
   type: arxiv
@@ -86,14 +56,76 @@
   #   }
 
 
+- id: wedd
+  title: "Wasserstein Task Embedding for Measuring Task Similarities"
+  authors:
+    - Xinran Liu
+    - Yikun Bai
+    - Yuzhe Lu
+    - Andrea Soltoggio
+    - Soheil Kolouri
+  venue: Association for the Advancement of Artificial Intelligence (AAAI) (submitted)
+  year: 2022
+  url: # https://github.com/mint-vu/SLOSH
+  pdf: https://arxiv.org/abs/2208.11726
+  type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "Highly efficient and model agnostic comparison of machine learning tasks."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+
+- id: loop
+  title: "Teaching Networks to Solve Optimization Problems"
+  authors:
+    - Xinran Liu*
+    - Yuzhe Lu*
+    - Ali Abbasi
+    - Meiyi Li
+    - Javad Mohammadi
+    - Soheil Kolouri
+  venue: Asian Conference on Machine Learning (ACML)
+  year: 2022
+  url: https://github.com/mint-vu/LOOP
+  pdf: https://arxiv.org/pdf/2202.04104.pdf
+  type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "A learning-to-optimize framework to replace the iterative nature of optimization problems using set learning."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
 - id: flow
   title: "Neural Flow Map Reconstruction"
   authors:
     - Saroj Sahoo
     - Yuzhe Lu
     - Matthew Berger
-  venue: Computer Graphics Forum (EuroVis Proceedings) (submitted)
-  year: 2021
+  venue: Computer Graphics Forum (EuroVis Proceedings)
+  year: 2022
   # url: https://arxiv.org/pdf/2104.04523.pdf
   pdf: https://arxiv.org/pdf/2104.04523.pdf
   # type: arxiv
@@ -113,6 +145,20 @@
   #   archivePrefix={arXiv},
   #   primaryClass={cs.CL}
   #   }
+
+
+- id: neurcomp
+  title: "Compressive Neural Representations of Volumetric Scalar Fields"
+  authors:
+    - Yuzhe Lu
+    - Kairong Jiang
+    - Joshua A. Levine
+    - Matthew Berger
+  venue: Computer Graphics Forum (EuroVis Proceedings)
+  year: 2021
+  url: https://github.com/luyuzhe111/NeurComp
+  pdf: https://arxiv.org/pdf/2104.04523.pdf
+  summary: "A state-of-the-art volumetric scalar fields compression method using implicit neural representations."
 
 
 - id: bit
@@ -178,19 +224,6 @@
   #   archivePrefix={arXiv},
   #   primaryClass={cs.CL}
   #   }
-
-- id: neurcomp
-  title: "Compressive Neural Representations of Volumetric Scalar Fields"
-  authors:
-    - Yuzhe Lu
-    - Kairong Jiang
-    - Joshua A. Levine
-    - Matthew Berger
-  venue: Computer Graphics Forum (EuroVis Proceedings)
-  year: 2020
-  url: https://github.com/luyuzhe111/NeurComp
-  pdf: https://arxiv.org/pdf/2104.04523.pdf
-  summary: "State-of-the-art volumetric scalar fields compression results using implicit neural representations."
 
 
 - id: easierpath
