@@ -10,7 +10,7 @@
   description: "E-mail"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:yuzhe.lu@vanderblt.edu"
+  url: "mailto:yuzhelu@cs.cmu.edu"
   on-homepage: true
   cv-group: 1
 
