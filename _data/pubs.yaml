@@ -1,29 +1,24 @@
-- id: radiis
-  title: "An Interactive Interpretability System for Breast Cancer Screening with Deep Learning"
+- id: cot
+  title: "Characterizing Out-of-Distribution Error via Optimal Transport"
   authors:
-    - Yuzhe Lu
-    - Adam Perer
-  venue: IEEE Visualization Conference (IEEE VIS)
-  year: 2022
-  url: https://github.com/luyuzhe111/Radiis
-  pdf: # https://arxiv.org/pdf/2112.05872.pdf
+    - Yuzhe Lu*
+    - Yilong Qin*
+    - Runtian Zhai
+    - Andrew Shen
+    - Ketong Chen
+    - Zhenlin Wang
+    - Soheil Kolouri
+    - Simon Stepputtis
+    - Joseph Campbell
+    - Katia Sycara
+  venue: Conference on Neural Information Processing Systems (NeurIPS)
+  year: 2023
+  url: https://github.com/luyuzhe111/COT
+  pdf: https://arxiv.org/abs/2305.15640
   type: arxiv
   # feature-title: RECAST
   # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
-  summary: "A visual analytics interface empowering radiologists to identify interpretable units in deep convolutional neural networks at scale to generate customized explanations."
-  # featured: true
-  # feature-order: 2
-  # selected: true
-  # image: /images/papers/20-recast-chi.png
-  # bibtex: |-
-  #   @article{wright2020recast,
-  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
-  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
-  #   year={2020},
-  #   eprint={2001.01819},
-  #   archivePrefix={arXiv},
-  #   primaryClass={cs.CL}
-  #   }
+  summary: "Estimating a classifier's performance on OOD data with Optimal Transport with theoretical gaurantees."
 
 
 - id: slosh
@@ -33,7 +28,7 @@
     - Xinran Liu*
     - Andrea Soltoggio
     - Soheil Kolouri
-  venue: Association for the Advancement of Artificial Intelligence (AAAI) (submitted)
+  venue: Winter Conference on Applications of Computer Vision (WACV) (submitted)
   year: 2022
   url: https://github.com/mint-vu/SLOSH
   pdf: https://arxiv.org/pdf/2112.05872.pdf
@@ -64,7 +59,7 @@
     - Yuzhe Lu
     - Andrea Soltoggio
     - Soheil Kolouri
-  venue: Association for the Advancement of Artificial Intelligence (AAAI) (submitted)
+  venue: Neural Networks (submitted)
   year: 2022
   url: # https://github.com/mint-vu/SLOSH
   pdf: https://arxiv.org/abs/2208.11726
@@ -87,23 +82,78 @@
   #   }
 
 
-- id: loop
-  title: "Teaching Networks to Solve Optimization Problems"
+# - id: loop
+#   title: "Teaching Networks to Solve Optimization Problems"
+#   authors:
+#     - Xinran Liu*
+#     - Yuzhe Lu*
+#     - Ali Abbasi
+#     - Meiyi Li
+#     - Javad Mohammadi
+#     - Soheil Kolouri
+#   venue: Asian Conference on Machine Learning (ACML)
+#   year: 2022
+#   url: https://github.com/mint-vu/LOOP
+#   pdf: https://arxiv.org/pdf/2202.04104.pdf
+#   type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  # summary: "A learning-to-optimize framework to replace the iterative nature of optimization problems using set learning."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+- id: radiis
+  title: "An Interactive Interpretability System for Breast Cancer Screening with Deep Learning"
   authors:
-    - Xinran Liu*
-    - Yuzhe Lu*
-    - Ali Abbasi
-    - Meiyi Li
-    - Javad Mohammadi
-    - Soheil Kolouri
-  venue: Asian Conference on Machine Learning (ACML)
+    - Yuzhe Lu
+    - Adam Perer
+  venue: IEEE Visualization Conference (IEEE VIS)
   year: 2022
-  url: https://github.com/mint-vu/LOOP
-  pdf: https://arxiv.org/pdf/2202.04104.pdf
+  url: https://github.com/luyuzhe111/Radiis
+  pdf: https://arxiv.org/abs/2210.08979
   type: arxiv
   # feature-title: RECAST
   # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
-  summary: "A learning-to-optimize framework to replace the iterative nature of optimization problems using set learning."
+  summary: "A visual analytics interface empowering radiologists to identify interpretable units in deep convolutional neural networks at scale to generate customized explanations."
+  # featured: true
+  # feature-order: 2
+  # selected: true
+  # image: /images/papers/20-recast-chi.png
+  # bibtex: |-
+  #   @article{wright2020recast,
+  #   title={RECAST: Interactive Auditing of Automatic Toxicity Detection Models},
+  #   author={Austin P. Wright and Omar Shaikh and Haekyu Park and Will Epperson and Muhammed Ahmed and Stephane Pinel and Diyi Yang and Duen Horng (Polo) Chau},
+  #   year={2020},
+  #   eprint={2001.01819},
+  #   archivePrefix={arXiv},
+  #   primaryClass={cs.CL}
+  #   }
+
+- id: scale
+  title: "Scale-reinforced Implicit Neural Representations"
+  authors:
+    - Saroj Sahoo
+    - Yuzhe Lu
+    - Matthew Berger
+  venue: IEEE Transactions on Visualization and Computer Graphics (IEEE TVCG) (submitted)
+  year: 2022
+  # url: https://arxiv.org/pdf/2104.04523.pdf
+  # pdf: https://arxiv.org/pdf/2104.04523.pdf
+  # type: arxiv
+  # feature-title: RECAST
+  # feature-description: "Interactive Auditing of Automatic Toxicity Detection Models"
+  summary: "Our approach accepts as input an arbitrary coordinate-based neural network modeling an underlying field and reinforces the network with scale, reproducing a given scale-parameterized family of transformations."
   # featured: true
   # feature-order: 2
   # selected: true
